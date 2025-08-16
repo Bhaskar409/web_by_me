@@ -1,0 +1,155 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* flex-direction: column;
+    flex-wrap: nowrap; */
+    /* flex-flow: column nowrap; */
+}
+
+
+.numbers div{
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.numbers1{
+    transform: rotate(30deg) translateY(-120px) rotate(-30deg);
+}
+.numbers2{
+    transform: rotate(60deg) translateY(-120px) rotate(-60deg);
+}
+.numbers3{
+    transform: rotate(90deg) translateY(-120px) rotate(-90deg);
+}
+.numbers4{
+    transform: rotate(120deg) translateY(-120px) rotate(-120deg);
+}
+.numbers5{
+    transform: rotate(150deg) translateY(-120px) rotate(-150deg);
+}
+.numbers6{
+    transform: rotate(180deg) translateY(-120px) rotate(-180deg);
+}
+.numbers7{
+    transform: rotate(210deg) translateY(-120px) rotate(-210deg);
+}
+.numbers8{
+    transform: rotate(240deg) translateY(-120px) rotate(-240deg);
+}
+.numbers9{
+    transform: rotate(270deg) translateY(-120px) rotate(-270deg);
+}
+.numbers10{
+    transform: rotate(300deg) translateY(-120px) rotate(-300deg);
+}
+.numbers11{
+    transform: rotate(330deg) translateY(-120px) rotate(-330deg);
+}
+.numbers12{
+    transform: rotate(360deg) translateY(-120px) rotate(-360deg);
+}
+
+
+
+.analog_clock{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(210, 134, 35);
+    border: 4px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom;
+  transform: rotate(90deg);
+}
+
+.hour {
+  width: 8px;
+  height: 70px;
+  background: rgb(24, 19, 19);
+}
+
+.minute {
+  width: 5px;
+  height: 100px;
+  background: rgb(79, 77, 77);
+}
+
+.second {
+  width: 3px;
+  height: 120px;
+  background: rgb(202, 202, 202);
+}
+
+.center {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.digital_clock{
+    height: 100px;
+    width: 405px;
+    border: 4px solid rgb(222, 219, 219);
+    display: flex;
+    justify-content: space-around;
+}
+
+.digihours{
+    width: 130px;
+    font-size: 50px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colonhour{
+    background-color: chocolate;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digiminute{
+    width: 130px;
+    font-size: 50px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colonminute{
+    background-color: chocolate;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digisecond{
+    width: 130px;
+    font-size: 50px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
